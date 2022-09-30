@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+
+</head>
+<body>
+    
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+<div class="container">
+    <div class="row">
+        <img src="Background image.jpg">
+        <div class="col-sm-8 img-overlay">
+        <h1>Jakub's Jaunts</h1>
+        <p>Walk the history of New York, through informative, thought provoking and comprehensive tours</p>
+    </div>
+    <div class="col-sm-4 img-overlay">
+        <img src="Me.jpg" height="250px" class="border border-dark border-5 rounded-circle float-end">
+    </div>
+    </div>
+    </div>
+<br>
+<br>
+    
+<div class="container">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded">
+  <a class="navbar-brand" href="home.html">Navigation</a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="navbar-nav">
+        <a class="nav-link" href="home.html">Home</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="tours.html">Tours</a>    
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+    </div>
+  </div>
+</nav>
+<br>
+<br>
+<br>
+<div class="container">
+<div class="row">
+    <div class="col-sm-4">
+    <div class="card">
+        <img src="Hell's Kitchen.jpg" class="card-img-top" alt="image of old Hell's Kitchen with a train coming down 11th ave">
+        <div class="card-body">
+          <h5 class="card-title">Hell's Kitchen</h5>
+          <p class="card-text"> See how this stretch of New York's west side went from one of its most infamous neighborhoods to its most desireable. Hell's a mild climate. This is Hell's Kitchen</p>
+          <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+            See Dates and Times 
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card">
+        <img src="LES.jpg" class="card-img-top" alt="1898 photo of tenement dwellers shopping from pushcarts">
+        <div class="card-body">
+          <h5 class="card-title">Lower East Side</h5>
+          <p class="card-text">Oft called the "Gateway to America" see the low slung Tenements that were home to millions of immigrants over the 19th and 20th centuries. Then grab a pastramin on rye at worl renowned Katz's deli. </p>
+          <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+            See Dates and Times 
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card">
+        <img src="Governor's Island.jpg" class="card-img-top" alt="Bird's eye view of Governor's Island">
+        <div class="card-body">
+          <h5 class="card-title">Governor's Island</h5>
+          <p class="card-text">From deterrent in the War of 1812, to prison during the Civil War and Coast Guard base through the 20th century, learn the history of unassuming Governor's Island, just a 5 minute ferry ride away. </p>
+          <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+            See Dates and Times 
+          </a>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Dates and Times</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div>
+            <h2></h2>
+            <p>See the calendar below for dates and times of all programs. I would put a calendar here. </p>
+          </div>
+        <button type="button" class="btn btn-primary" href=""> Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<br>
+<br>
+</div>
+<div class="container">
+  <h1 class="text-center">Tour Information</h1>
+  <div class="row">
+  <table class=" table table-light">
+    <thead>
+      <tr>
+        <th>Neighborhood</th>
+        <th>Tour Length</th>
+        <th>Tour Duration</th>
+        <th>Starting Point</th>
+      </tr>
+      <tr>
+        <td>Hell's Kitchen</td>
+        <td>1 mile</td>
+        <td>1.5 hours</td>
+        <td>Corner of 39th and 10th ave</td>
+      </tr>
+        <td>Lower East Side</td>
+        <td>1.3 miles</td>
+        <td>2 hours</td>
+        <td>Corner of Essex and Delancey</td>
+      <tr>
+        <td>Governor's Island</td>
+        <td>2.3 miles</td>
+        <td>2.5 hours</td>
+        <td><a href="https://www.google.com/maps/place/Battery+Maritime+Building+Slip+5/@40.7012298,-74.0293068,15z/data=!4m9!1m2!2m1!1sbattery+marine+terminal!3m5!1s0x89c25a149875c7fb:0x7442dcc559b188ab!8m2!3d40.7012306!4d-74.0117968!15sChdiYXR0ZXJ5IG1hcmluZSB0ZXJtaW5hbJIBDmZlcnJ5X3Rlcm1pbmFs4AEA">Battery Maritime Building</a> </td>
+
+      </tr>
+      
+    </thead>
+    </table>
+  </div>
+</div>
+</body>
+</html>
