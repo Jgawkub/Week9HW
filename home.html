@@ -13,11 +13,25 @@
 <script src="node_modules/jquery/dist/jquery.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 
-
-<h1>Jakub's Jaunts</h1>
-<p>Walk the history of New York, through informative, thought provoking and comprehensive tours</p>
 <div class="container">
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="card">
+    <img class="card-img" style="height:30vh; object-fit:cover" src="Background image.jpg" alt="an old map of New York">
+    <div class="card-img-overlay">
+      <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-8">
+      <h1 class="card-title text-dark">Jakub's Jaunts</h1>
+      <p class="card-text fw-bold fs-4">Walk the history of New York, through informative, thought provoking and comprehensive tours</p>
+    </div>
+    <div class="col-sm-3">
+  
+    </div>
+    </div>
+    </div>
+  </div>
+  </div>
+<div class="container">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded">
   <a class="navbar-brand" href="home.html">Navigation</a>
   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -25,7 +39,6 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <div class="navbar-nav">
         <a class="nav-link" href="home.html">Home</a>
-        <a class="nav-link" href="about.html">About</a>
         <a class="nav-link" href="tours.html">Tours</a>    
         <a class="nav-link" href="contact.html">Contact</a>
       </li>
@@ -33,6 +46,59 @@
   </div>
 </nav>
 </div>
-  
+</div>
+<br>
+<br>
+<div class="container">
+<div class="row">
+  <div class="col-sm-5">
+    <img src="Me.jpg" height="250px" class="border border-dark border-5 rounded-circle float-end">
+      <h1>About</h1>
+      p>What set's a Jakub Jaunt from other New York City Walking tours? Great question! A native New Yorker from when Peter Stuyvesant was governor, I've walked nearly every single street in this city and taken in every sight and smell of rotten garbage it can offer. After graduating with a Master's in history I decided to start my company to tell the stories that I think people are interested in. Every brick, lamp post, nook, cranney, and cockroach has a story and I'm just looking to tell it. When I'm not guiding I can be found, biking down the Hudson River bike path, enjoying a great dollar slice of pizza, or taking in the views of the city from the sail boat I volunteer on. Check out some of my adventures with the gallery on the right! </p>
+      
+    </div>
+  <div class="col-sm-7">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="brooklynbridge.jpg" class="d-block w-100">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Two of the city's great links, the Manhattan and Brooklyn Bridges</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="downtown.jpg" class="d-block w-100">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>A fantastic view of Lower Manhattan</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="rowhouse.jpg" class="d-block w-100">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Some rare examples of the city's 19th century row houses</h5>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+</div>
+
+
+
+</div>
 </body>
 </html>
